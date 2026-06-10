@@ -28,7 +28,7 @@ export function About() {
               <div className="gradient-border rounded-2xl p-1">
                 <div className="relative aspect-square rounded-2xl overflow-hidden bg-secondary flex items-center justify-center">
                   <Image
-                    src="/ibrahim elsarawy.jpeg"
+                    src="/ibrahim-elsarawy.jpeg"
                     alt="Ibrahim Elsarawy - Frontend Developer"
                     width={500}
                     height={500}
