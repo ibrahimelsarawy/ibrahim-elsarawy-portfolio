@@ -12,7 +12,7 @@ export const siteConfig = {
 
 export const stats = [
   { label: "Years Learning", value: "3+" },
-  { label: "Projects Built", value: "10+" },
+  { label: "Projects Built", value: "5+" },
   { label: "Technologies Used", value: "15+" },
 ];
 export type SkillCategory = "Frontend" | "Backend" | "Tools" | "AI Tools";
@@ -86,9 +86,25 @@ export const projects: Project[] = [
     githubUrl:
       "https://github.com/ibrahimelsarawy/E-commerce-Project-next-IbrahimELsarawy.git",
   },
-
+{
+  id: "2",
+  title: "Personal Portfolio Website",
+  description:
+    "A modern and responsive portfolio website built with Next.js, TypeScript, Tailwind CSS, and Framer Motion. Features dark mode, smooth animations, project showcase, skills section, and a contact form integrated with EmailJS.",
+  image: "/projects/portfolio-preview.png",
+  technologies: [
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "Framer Motion",
+    "EmailJS",
+  ],
+  category: "Frontend",
+  liveUrl: "https://ibrahim-elsarawy-portfolio-ajtb.vercel.app/",
+  githubUrl: "https://github.com/ibrahimelsarawy/ibrahim-elsarawy-portfolio",
+},
   {
-    id: "2",
+    id: "3",
     title: "Social Media Application",
     description:
       "A responsive social media application built with React.js and Tailwind CSS. Includes authentication, posts, comments, user profiles, and API integration.",
@@ -100,7 +116,7 @@ export const projects: Project[] = [
   },
 
   {
-    id: "3",
+    id: "4",
     title: "Adasa Lens",
     description:
       "A modern business website focused on performance, accessibility, and responsive design. Built using modern frontend development practices.",
@@ -112,7 +128,7 @@ export const projects: Project[] = [
       "https://github.com/ibrahimelsarawy/React-Adasa-Ibrahim-Elsarawy.git",
   },
   {
-    id: "4",
+    id: "5",
     title: "Contact Hub",
     description:
       "A responsive contact management application built with HTML, CSS, and JavaScript. It allows users to add, edit, delete, and organize contacts through a clean and user-friendly interface.",
@@ -124,7 +140,7 @@ export const projects: Project[] = [
   },
 
   {
-    id: "5",
+    id: "6",
     title: "Space Explorer Dashboard",
     description:
       "An interactive space exploration dashboard that displays space-related information through a modern and responsive user interface. Built with vanilla JavaScript and focused on clean UI design and user experience.",
