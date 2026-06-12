@@ -56,9 +56,9 @@ export const skills: Skill[] = [
   { name: "Postman", category: "Tools", icon: "📬" },
 
   // AI Tools
-  { name: "Cursor AI", category: "Tools", icon: "🤖" },
-  { name: "ChatGPT", category: "Tools", icon: "🧠" },
-  { name: "GitHub Copilot", category: "Tools", icon: "✨" },
+  { name: "Cursor AI", category: "AI Tools", icon: "🤖" },
+  { name: "ChatGPT", category: "AI Tools", icon: "🧠" },
+  { name: "GitHub Copilot", category: "AI Tools", icon: "✨" },
 ];
 export type ProjectCategory = "Frontend" ;
 
