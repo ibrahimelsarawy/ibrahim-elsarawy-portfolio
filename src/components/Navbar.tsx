@@ -43,7 +43,7 @@ export function Navbar() {
         isScrolled ? "glass shadow-lg py-3" : "bg-transparent py-5"
       )}
     >
-      <nav className="container-custom flex items-center justify-between px-4 sm:px-6 lg:px-8">
+      <nav className="flex items-center justify-between px-4 sm:px-6 lg:px-8">
         <button
           onClick={() => handleNavClick("#home")}
           className="text-xl font-bold gradient-text cursor-pointer"
@@ -69,7 +69,7 @@ export function Navbar() {
           ))}
         </ul>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 overflow-hidden">
           <ThemeToggle />
           <Button
             variant="gradient"

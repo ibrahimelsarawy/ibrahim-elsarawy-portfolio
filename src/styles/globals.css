@@ -98,7 +98,10 @@ body {
 .gradient-border {
   position: relative;
 }
-
+html,
+body {
+  overflow-x: hidden;
+}
 .gradient-border::before {
   content: "";
   position: absolute;
