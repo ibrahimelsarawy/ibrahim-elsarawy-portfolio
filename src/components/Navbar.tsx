@@ -31,11 +31,17 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const handleNavClick = (href: string) => {
-    scrollToSection(href.replace("#", ""));
+const handleNavClick = (href: string) => {
+  if (isMobileOpen) {
     setIsMobileOpen(false);
-  };
 
+    setTimeout(() => {
+      scrollToSection(href.replace("#", ""));
+    }, 350);
+  } else {
+    scrollToSection(href.replace("#", ""));
+  }
+};
   return (
     <header
       className={cn(
